@@ -1,16 +1,14 @@
 package alex.heustess;
 
-public class Print {
-    public void printGrid(int[][] grid){
+class Print {
+    void printGrid(int[][] grid) {
 
-
-        //print initial position
-        for(int i = 0; i < grid.length; i++){
-            for(int x = 0; x < grid[i].length; x++){
-                System.out.print(grid[i][x] + " ");
+        for (int[] r : grid) {
+            for (int c : r) {
+                System.out.print(c + " ");
             }
-            System.out.print("\n");
+            System.out.println();
         }
-        System.out.print("\n");
+        System.out.println();
     }
 }
