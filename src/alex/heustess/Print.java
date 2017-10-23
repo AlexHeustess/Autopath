@@ -1,3 +1,5 @@
+package alex.heustess;
+
 public class Print {
     public void printGrid(int[][] grid){
 
