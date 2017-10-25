@@ -2,15 +2,20 @@
 
 <?import javafx.scene.layout.*?>
 <?import java.net.URL?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.text.TextFlow?>
 <?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Button?>
+
 <BorderPane xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.162-ea" fx:controller="alex.heustess.viewer.ViewController">
+
+    <top>
+        <Pane HBox.hgrow="ALWAYS" id="topBar">
+            <Button text="Generate" onAction="#onclick" />
+        </Pane>
+    </top>
 
     <center>
         <Text fx:id="outputText" />
     </center>
-
 
     <stylesheets>
         <URL value="@viewer.css" />

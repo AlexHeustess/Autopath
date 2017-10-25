@@ -10,6 +10,10 @@ public class Grid {
         createMappedGrid();
     }
 
+    public void updateGrid() {
+        createMappedGrid();
+    }
+
     private void createMappedGrid() {
         int rndEndPosY = new Random().nextInt(grid.length);
         int rndEndPosX = new Random().nextInt(grid[0].length);

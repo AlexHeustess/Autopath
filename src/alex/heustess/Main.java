@@ -13,7 +13,6 @@ public class Main {
         System.out.println(myGrid);
 
         //GUI with mapped grid
-        viewer
     }
 }
 
